@@ -28,3 +28,8 @@ nix flake init -t <alias>#<template>
 # in the specified directory
 nix flake new <project> -t <alias>#<template>
 ```
+
+## Updating
+```
+nix flake update <alias>
+```
