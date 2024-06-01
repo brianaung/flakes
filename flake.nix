@@ -17,6 +17,10 @@
             path = ./laravel;
             description = "A flake for a laravel project.";
           };
+          lua-neovim = {
+            path = ./lua-neovim;
+            description = "A flake for a writing Neovim plugin in Lua.";
+          };
         };
       formatter.x86_64-linux = pkgs.nixpkgs-fmt;
     };
