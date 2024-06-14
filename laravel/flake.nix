@@ -38,6 +38,8 @@
 
                   packages = [
                     pkgs.nodejs_21
+                    pkgs.phpactor
+                    pkgs.tailwindcss-language-server
                   ];
 
                   services.mysql = {
