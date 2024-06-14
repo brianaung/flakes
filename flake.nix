@@ -21,6 +21,10 @@
             path = ./lua-neovim;
             description = "A flake for a writing Neovim plugin in Lua.";
           };
+          react = {
+            path = ./react;
+            description = "A flake for react projects.";
+          };
         };
       formatter.x86_64-linux = pkgs.nixpkgs-fmt;
     };
