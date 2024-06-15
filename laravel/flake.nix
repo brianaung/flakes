@@ -49,7 +49,7 @@
                       {
                         name = "user";
                         password = "password";
-                        ensurePermissions = { "user.*" = "ALL PRIVILEGES"; };
+                        ensurePermissions = { "demo.*" = "ALL PRIVILEGES"; };
                       }
                     ];
                   };
