@@ -38,8 +38,13 @@
 
                   services.postgres.enable = true;
                   services.postgres.initialDatabases = [
-                    { name = "foobar"; user = "devenv"; }
+                    { name = "postgres"; user = "postgres"; }
                   ];
+                  services.postgres.initialScript = ''
+                    CREATE ROLE postgres WITH
+                      LOGIN
+                      SUPERUSER;
+                  '';
                 }
               ];
             };
